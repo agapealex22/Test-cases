@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="16760" name="Smoke test suite for MyPhoneExlorer app" >
+<node_order><![CDATA[9]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="17305" name="Control phone/Screen mirroring" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="17308" name="Screen_mirroring">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[334]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-334]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if phone display is mirrored on the pc.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot; =&gt; &quot;Control phone/Screen mirroring&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new window named &quot;Load screenshot&quot; is opened on the pc. On the phone side a window with two buttons: &quot;CANCEL&quot;and &quot;START NOW&quot; opens, requesting access from the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;START NOW&quot; button on the phone</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Phone screen is mirrored on the pc</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="17321" name="Control_phone">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[337]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-337]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if the phone can be controled trough &quot;Control phone/Screen mirroring&quot; functionality</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be established.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot; =&gt; &quot;Control phone/Screen mirroring&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new window named &quot;Load screenshot&quot; is opened on the pc. On the phone side a window with two buttons: &quot;CANCEL&quot;and &quot;START NOW&quot; opens, requesting access from the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;START NOW&quot; button on the phone</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Phone screen is mirrored on the pc</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Give input to the phone using the mouse</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The phone responds accordingly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="13398" name="Connection" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="13399" name=" Connect_Phone_To_Pc">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-43]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if the first connection between pc and phone can be established.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>MyPhoneExplorer app must run on both devices.On the PC, &quot;Phone with Google Android-OS&quot; and &quot;Connect via WiFi&quot; options must be selected .On the phone, &quot;WiFi active&quot; must be selected and &quot;WiFi-PIN&quot;: 1234 must be set. Both devices must be connected to the same Network (router).</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open MyPhoneExplorer app on the pc and phone</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>MyPhoneExplorer app runs on both devices</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;File&quot; =&gt; &quot;Connect&quot; button from the menu-bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Connecting&nbsp; bar and a window requesting &quot;PIN-Code&quot; appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Type the &quot;1234&quot; PIN-Code in the input field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;PIN-Code&quot; field accepts the input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Ok&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The window requesting the &quot;PIN-Code&quot; closes and a new window requesting a name input for the identified phone appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Type &quot;Oneplus&quot; name in the input field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Name field accepts the input</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Ok&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Connection is established and syncronization starts automatically</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="13417" name="Disconnect_Phone_From_Pc">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-46]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if &quot;Disconnect&quot; function works.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The phone must be connected to the pc.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;File&quot; tab and press &quot;Disconnect&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Connection between phone and pc is stopped</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="13410" name="Contacts" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<p>Contacts syncronization between phone and pc</p>
+]]></details> 
+
+<testcase internalid="13411" name="Syncronise_All_Contacts">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[44]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-44]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if&nbsp; Syncronise All Contacts function works.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be established.</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Select&nbsp; &quot;View&quot;=&gt;&quot;Contacts&quot;=&gt;&quot;All&quot; tab</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;All Contacts are displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Syncronize&quot; Button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A app window&nbsp; with the message &quot;Please wait, Syncronizing phonebook..&quot;&nbsp; appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="13414" name="Adding_New_Contact">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[45]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-45]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if New Contact function works</p>
+]]></summary>
+	<preconditions><![CDATA[<p>MyPhoneExplorer app must be running on the pc displaying All Contacts tab.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Press &quot;New Contact&quot; button found on the menu bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;A window with input fields necesary to add a new contact appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Fill First Name with &quot;Andrei&quot; , Last name with &quot;Popescu&quot; and Mobile with &quot;0747000000&quot; as test data in the text fields</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>All fields accept testdata</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press &quot;OK&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new entry is added to the contact list, marked with a yellow sun symbol until the syncronization between the pc and phone is made.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="13420" name="Call" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[<p>Initializing a call using the desktop app</p>
+]]></details> 
+
+<testcase internalid="13421" name="Call_Contact">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-47]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that dialing a number from the pc app works.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between pc and phone must be established</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press &quot;View&quot;=&gt;&quot;Contacts&quot;=&gt;&quot;All&quot; buttons from the menu bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;All&quot; Contacts list appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Andrei Popescu&quot; contact entry with the mouse and press &quot;Call&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A window displaying &quot;Andrei Popescu&quot; contact details and &quot;Dial&quot; button appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Dial&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The phone starts dialing &quot;Andrei Popescu&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="15051" name="Messages" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[<p>Testing that messages can be sent from the desktop app.</p>
+]]></details> 
+
+<testcase internalid="15052" name="Sending_New_Message">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[151]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-151]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if sending a new message from the desktop app works.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The connection between phone and pc must be established</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Contacts&quot;=&gt;&quot;All&quot; in the menu bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>All contacts are displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Andrei Popescu&quot; from the contact list using the mouse</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Andrei Popescu&quot; contact is highlighted</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press &quot;New message&quot; button from the top menu bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A window with &quot;Andrei Popescu&quot; name, phone number and a message textbox opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Input &quot;test message&quot; text in the message textbox</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The field accepts test data</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Send&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The message is delivered</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="15849" name="Monitor" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[<p>Cheking if Monitor functionality is displaying accurate data</p>
+]]></details> 
+
+<testcase internalid="15851" name="Check_Monitor">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[192]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-192]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if Monitor functionality is displaying accurate data.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Other&quot;=&gt;&quot;Monitor&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Monitor functionality is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Compare battery percentage from Monitor functionality with battery percentage from the phone</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Both devices are showing the same battery percentage</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="15857" name="Check_Memory_status">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[193]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-193]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if &quot;Memory status&quot; functionality is displaying the same values as the phone</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Other&quot;=&gt;&quot;Memory status&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Memory status is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Compare displayed values like &quot;Used&quot;,&quot;Free&quot;and &quot;Total&quot; from &quot;Memory status&quot; with values from the phone</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>All values coincide</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="15019" name="Organizer" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[<p>Testing &quot;New appointsment&quot; functionality</p>
+]]></details> 
+
+<testcase internalid="15024" name="Adding_New_Appointment">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[150]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-150]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if adding a new appointment works</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Organizer&quot;=&gt;&quot;Calendar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Calendar&quot; tab opens</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Double-click on &quot;24&quot; date box</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A app window named &quot;New appointment&quot; opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Fill Time field with: &quot;08/24/2022&nbsp; 06.30 PM&quot;, Subject field with: &quot;Examen&quot;, Location field with: &quot;Online&quot; and Additional field with: &quot;Examen Software testing&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>All fields accept test data</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;OK&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>New appointment is visible in the calendar tab at 24 August 2022 date</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="15148" name="Syncronisation" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="15151" name="Creating_New_Sync_Job">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[152]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-152]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if a sync job can be created</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Files&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Internal Storage partition of the phone is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press the down arrow next to &quot;Sync files&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A drop-down menu is open</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Customize button&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A window named Edit File-Sync jobs is opened</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Phone-&gt;Pc&quot; direction and fill the Title field with &quot;Sincronizare1&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Phone-&gt;Pc&quot; direction is selected and Title field accepts test data</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Select Source folder from Internal storage as &quot;\Internal storage\documents to sync\&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Source folder is selected</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Select Target folder on the PC as &quot;D:\documents folder pc\&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Target folder is selected</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Press the green plus button under the &quot;File-Sync jobs&quot; field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Sincronizare1&quot; file-sync job is created</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="15180" name="Sync_Files_Functionality">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[153]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-153]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verifying the syncronization from phone to pc</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active.</p>
+
+<p>At least 1 sync job must be created.</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>1. Go to &quot;View&quot;=&gt;&quot;Files&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>1. Internal storage partition of the phone is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press the down arrow next to &quot;Sync files&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dropdown menu appears displaying the sync job already created and the &quot;Customize&quot; button</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select the &quot;Sincronizare1&quot; sync job</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears with&nbsp; &quot;Please wait&quot; message and the files are transfered to the pc</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="15189" name="Photo_Syncronization">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[154]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-154]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verifying photo syncronization between phone and pc</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;View&quot;=&gt;&quot;Files&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Internal storage partition of the phone is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Sync photos&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar with &quot;Please wait...&quot; message&nbsp; appears and all photos&nbsp; are downloaded from the phone to the pc</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="15223" name="Backup" >
+<node_order><![CDATA[8]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="15624" name="Creating_Phone_Backup">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[167]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-167]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verifying if creating backup for &quot;Contacts&quot;, &quot;Call log&quot;, &quot;Events and tasks&quot;, &quot;Notes&quot; and &quot;SMS&quot; is successful</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot;=&gt;&quot;Create backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A window opens prompting the user to select a save location on the pc</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select a save location folder on the pc and click Save button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A file named &quot;Backup Oneplus 2022-08-11&quot; is created and a new window opens allowing the user to select preferred data for backup</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select&nbsp; &quot;Contacts&quot;,&quot;Call log&quot;,&quot;Event and tasks&quot;,&quot;Notes&quot; and &quot;SMS&quot; checkboxes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Checkboxes are selected</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Create backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears displaying the &quot;Current status&quot; of the files being processed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Close&quot; button when prompted</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Backup is successfull</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="17805" name="Creating_Files_Backup">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[413]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-413]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verifying that files backup is successful</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Connection between phone and pc must be active</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot; =&gt; &quot;Create backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Backup saving location folder on the pc opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Save&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Backup Oneplus 2022-08-11.mpb&quot; file is created</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press the &quot;Files&quot; checkbox and select the save location</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Files for backup are being loaded</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Create backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears, displaying the &quot;Current status&quot; of the files being processed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Close button&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Files backup is successful</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="17821" name="Creating_Applications_Backup">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[414]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-414]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot; =&gt; &quot;Create backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Backup saving location folder on the pc opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Save&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Backup Oneplus 2022-08-11.mpb&quot; file is created</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Press the &quot;Applications&quot; checkbox and select the save location</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Applications for backup are being loaded</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Create backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears, displaying the &quot;Current status&quot; of the files being processed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Close button&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Applications backup is successful</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="16750" name="Restore" >
+<node_order><![CDATA[9]]></node_order>
+<details><![CDATA[<p>Restoring backup files</p>
+]]></details> 
+
+<testcase internalid="15657" name="Restore_Phone_Backup">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[170]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-170]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verifying if &quot;Contacts&quot;, &quot;Call log&quot;, &quot;Events and tasks&quot;, &quot;Notes&quot; and &quot;SMS&quot; restore is successful</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Phone must be factory reset and all data wiped.</p>
+
+<p>Phone must have MyPhoneEplorer app installed and connection between phone and pc must be active.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot;=&gt;&quot;Restore backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>An OS window with saved backup location on the pc opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select the created backup file &quot;Oneplus 2022-08-11.mpb&quot; file</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>An app window named &quot;Restore backup&quot; opens with all chekboxes fields &quot;Contacts&quot;,&quot;Call log&quot;,&quot;Events and tasks&quot;, &quot;Notes&quot; and &quot;SMS&quot; selected</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Restore backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears displaying the &quot;Current status&quot; of the files being restored</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Close&quot; button when prompted</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Restore is successfull</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="17756" name="Restore_Files_Backup">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[404]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-404]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check if restoring backuped files is successful.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Files backup have to be previously created</p>
+
+<p>Connection between phone and pc must be established.</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;</p>
+
+<p>Go to &quot;Extras&quot; =&gt;&quot;Restore backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;</p>
+
+<p>Backup location folder on the pc opens</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select the &quot;Oneplus 2022-08-11.mpb&quot; file coresponding to Files backup</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A app window named &quot;Restore backup&quot; opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select the Files checkbox and press &quot;Restore backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears displaying the &quot;Current status&quot; of the files being restored</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Close&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Files restore is successful</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="17788" name="Restore_Applications_Backup">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[412]]></externalid>
+	<fullexternalid><![CDATA[QA29FP_-412]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that restoring applications is successful</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Applications backup has to be previously created</p>
+
+<p>Connection between phone and pc must be established</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Go to &quot;Extras&quot; =&gt; &quot;Restore backup&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Backup location folder on the pc opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select the &quot;Oneplus 2022-08-11.mpb&quot; file coresponding to applications backup</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A app window named &quot;Restore backup&quot; opens</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Applications&quot; checkbox and press &quot;Restore backup&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A loading bar appears displaying &quot;Current status&quot; of the applications being restored</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press &quot;Close&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Applications restore is successful</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite>
