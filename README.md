@@ -1,9 +1,9 @@
 # Test-Case samples
 Manual test cases for MyPhoneExplorer app
 
-Title: Connect phone to pc
-Summary: Check if the first connection between pc and phone can be established.
-Preconditions: MyPhoneExplorer app must run on both devices.On the PC, "Phone with Google Android-OS" and "Connect via WiFi" options must be selected .On the phone, "WiFi active" must be selected and "WiFi-PIN": "1234" must be set. Both devices must be connected to the same Network (router).
+**Title:** Connect phone to pc
+**Summary:** Check if the first connection between pc and phone can be established.
+**Preconditions:** MyPhoneExplorer app must run on both devices.On the PC, "Phone with Google Android-OS" and "Connect via WiFi" options must be selected .On the phone, "WiFi active" must be selected and "WiFi-PIN": "1234" must be set. Both devices must be connected to the same Network (router).
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Steps to reproduce:                                                    Expected results:
