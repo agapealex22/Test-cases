@@ -8,12 +8,12 @@ Preconditions: MyPhoneExplorer app must run on both devices. On the PC, "Phone w
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Steps to reproduce:         Expected results:
-1. Open MyPhoneExplorer app on the pc and phone *Tabspace**Tabspace**Tabspace**Tabspace* 1. MyPhoneExplorer app runs on both devices
-2. Press "File"=>"Connect" button from the menu-bar *Tabspace**Tabspace**Tabspace**Tabspace* 2. Connecting bar and a window requesting "PIN-Code" appears
-3. Type the "1234" PIN-Code in the input *Tabspace**Tabspace**Tabspace**Tabspace* 3. "PIN-Code" field accepts the input
-4. Press "Ok" button *Tabspace**Tabspace**Tabspace**Tabspace* 4. "PIN-Code" window closes and a new window requesting a name input for  *Tabspace**Tabspace**Tabspace**Tabspace**Tabspace**Tabspace**Tabspace**Tabspace the identified phone appears
-5. Type "Oneplus" name in the input field *Tabspace**Tabspace**Tabspace**Tabspace* 5. Name field accepts the input
-6. Press "Ok" button *Tabspace**Tabspace**Tabspace**Tabspace* 6. Connection is established and syncronization starts automatically.
+1. Open MyPhoneExplorer app on the pc and phone  1. MyPhoneExplorer app runs on both devices
+2. Press "File"=>"Connect" button from the menu-bar  2. Connecting bar and a window requesting "PIN-Code" appears
+3. Type the "1234" PIN-Code in the input field 3. "PIN-Code" field accepts the input
+4. Press "Ok" button  4. "PIN-Code" window closes and a new window requesting a name input for the identified phone appears
+5. Type "Oneplus" name in the input field  5. Name field accepts the input
+6. Press "Ok" button  6. Connection is established and syncronization starts automatically.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Test data: PIN-Code: 1234
