@@ -1,5 +1,6 @@
 # Test-Case samples
 Manual test cases for MyPhoneExplorer app
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Title:** Connect phone to pc
 **Summary:** Check if the first connection between pc and phone can be established.
