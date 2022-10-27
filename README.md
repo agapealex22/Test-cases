@@ -1,7 +1,6 @@
-Test-Case samples<br>
+#Test-Case samples<br>
 =====================================================================================================================================================
-Manual test cases for MyPhoneExplorer app that i wrote previously.</br>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+##Manual test cases for MyPhoneExplorer app that i wrote previously.</br>
 
 Title: Connect phone to pc</br>
 Summary: Check if the first connection between pc and phone can be established.</br>
