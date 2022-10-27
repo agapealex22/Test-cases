@@ -23,5 +23,23 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 5. Name field accepts the input
 6. Connection is established and syncronization starts automatically.
 
-**Test data:** PIN-Code: "1234"
+**Test data:** PIN-Code: "1234"</br>
 **Status:** Passed
+------------------------------------------------------------------------------
+### Call Contact</br>
+**Summary:**Initializing a call using the desktop app.</br>
+**Preconditions:**Connection between pc and phone must be established</br>
+
+**Steps to reproduce:** 
+1. Press "View" => "Contacts"=> "All" buttons from the menu bar
+2. Select "Andrei Popescu"contact entry using the mouse and press "Call" button
+3. Press "Dial" button
+
+**Expected results:**
+1. Contacts list appears
+2. A window displaying"Andrei Popescu" contact details and "Dial" button appears
+3. The phone starts dialing "Andrei Popescu" contact
+
+**Test data:** "Andrei Popescu" contact</br>
+**Status:** Passed
+--------------------------------------------------------------------------------------
