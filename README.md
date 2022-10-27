@@ -29,7 +29,7 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 -------------------------------------------------------------------------------------
 ### Call Contact</br>
 **Summary:** Initializing a call using the desktop app.</br>
-**Preconditions** Connection between pc and phone must be established</br>
+**Preconditions:** Connection between pc and phone must be established</br>
 
 **Steps to reproduce:** 
 1. Press "View" => "Contacts"=> "All" buttons from the menu bar
@@ -45,3 +45,26 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 **Status:** Passed
 
 -----------------------------------------------------------------------------------
+### Sending a new message
+**Summary:** Check if sending a sms from the desktop app works </br>
+**Preconditions:** The connection between phone and pc must be established </br>
+
+**Steps to reproduce:** 
+1. Go to "View"=>"Contacts"=>"All" in the menu bar
+2. Select "Andrei Popescu" from the contact list using the mouse
+3. Press "New message" button from the top menu bar
+4. Input "test message" text in the message textbox
+5. Press "Send" button
+
+**Expected results:**
+1. All contacts are displayed
+2. "Andrei Popescu" contact is highlighted
+3. A window with "Andrei Popescu" name, phone number and a message textbox opens
+4. The field accepts test data
+5. The message is  successfuly delivered
+
+**Test data:** "Andrei Popescu" contact; "test message" input </br>
+**Status:** Passed</br>
+
+--------------------------------------------------------------------------------------
+
