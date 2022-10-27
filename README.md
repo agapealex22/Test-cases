@@ -24,8 +24,9 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 6. Connection is established and syncronization starts automatically.
 
 **Test data:** PIN-Code: "1234"</br>
-**Status:** Passed
-------------------------------------------------------------------------------
+**Status:** Passed</br>
+
+-------------------------------------------------------------------------------------
 ### Call Contact</br>
 **Summary:**Initializing a call using the desktop app.</br>
 **Preconditions:**Connection between pc and phone must be established</br>
@@ -42,4 +43,5 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 
 **Test data:** "Andrei Popescu" contact</br>
 **Status:** Passed
---------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
