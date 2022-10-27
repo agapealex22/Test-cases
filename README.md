@@ -6,7 +6,7 @@
 **Summary:** Check if the first connection between pc and phone can be established.</br>
 **Preconditions:** MyPhoneExplorer app must run on both devices. On the pc,"Phone with Google Android-OS" and "Connect via WiFi" options must be selected. On the phone. "WiFi active" must be selected 
 and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same network (router).</br>
-------------------------------------------------------------------------------
+
 **Steps to reproduce:**                                                                                              
 1. Open MyPhoneExplorer app on the pc and phone                                                         
 2. Press "File"=>"Connect" button from the menu-bar                                                      
