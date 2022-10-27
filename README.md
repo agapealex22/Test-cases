@@ -1,5 +1,5 @@
 # Test-Case samples<br>
-==================================================================================
+===========================================================================
 ## Manual test cases for MyPhoneExplorer app that i wrote previously.</br>
 
 ### Connect phone to PC</br>
