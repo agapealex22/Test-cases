@@ -1,4 +1,4 @@
-# Test-Case samples<br>
+# Test Case samples<br>
 
 ## Manual test cases for MyPhoneExplorer app that I wrote previously.</br>
 
@@ -22,5 +22,6 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 4. "PIN-Code" window closes and a new window requesting a name input for the identified phone appears
 5. Name field accepts the input
 6. Connection is established and syncronization starts automatically.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Test data:** PIN-Code: 1234
+
+**Test data:** PIN-Code: "1234"
+**Status:** Passed
