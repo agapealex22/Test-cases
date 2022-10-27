@@ -28,8 +28,8 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 
 -------------------------------------------------------------------------------------
 ### Call Contact</br>
-**Summary:**Initializing a call using the desktop app.</br>
-**Preconditions:**Connection between pc and phone must be established</br>
+**Summary:** Initializing a call using the desktop app.</br>
+**Preconditions** Connection between pc and phone must be established</br>
 
 **Steps to reproduce:** 
 1. Press "View" => "Contacts"=> "All" buttons from the menu bar
