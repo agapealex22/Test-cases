@@ -45,7 +45,7 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 **Status:** Passed
 
 -----------------------------------------------------------------------------------
-### Sending a new message
+### Sending a SMS </br>
 **Summary:** Check if sending a sms from the desktop app works </br>
 **Preconditions:** The connection between phone and pc must be established </br>
 
@@ -67,4 +67,29 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 **Status:** Passed</br>
 
 --------------------------------------------------------------------------------------
+### Creating phone backup
+**Summary:** Verifying if creating backup for "Contacts", "Call log", "Events and tasks", "Notes" and "SMS" is successful.</br>
+**Preconditions:** Connection between phone and pc must be active </br>
+
+**Steps to reproduce:**
+1. Go to "Extras"=>"Create backup"
+2. Select a save location folder on the pc and click "Save" button
+3. Select "Contacts","Call log","Event and tasks","Notes" and "SMS" checkboxes
+4. Click on "Create backup" button
+5. Press "Close" button when prompted
+
+**Expected results:**
+1. A window opens prompting the user to select a save location on the pc
+2. A file named "Backup Oneplus 2022-08-11" is created and a new window opens, allowing the user to select preferred data for backup 
+3. Checkboxes are selected
+4. A loading bar appears displaying the "Current status" of the files being processed 
+5. Window closes and  backup is successfull
+
+**Test data:** "Backup Oneplus 2022-08-11" file, and data from "Contacts","Call log","Event and tasks","Notes" and "SMS" </br>
+**Status:** Passed
+
+
+
+
+
 
