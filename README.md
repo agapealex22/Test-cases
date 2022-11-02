@@ -7,7 +7,7 @@
 **Preconditions:** MyPhoneExplorer app must run on both devices. On the pc,"Phone with Google Android-OS" and "Connect via WiFi" options must be selected. On the phone. "WiFi active" must be selected 
 and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same network (router).</br>
 
-**Steps to reproduce:*                                                                                              
+**Steps to reproduce:**                                                                                            
 1. Open MyPhoneExplorer app on the pc and phone                                                         
 2. Press "File"=>"Connect" button from the menu-bar                                                      
 3. Type the "1234" PIN-Code in the input field                                                                     
@@ -86,7 +86,14 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 5. Window closes and  backup is successfull
 
 **Test data:** "Backup Oneplus 2022-08-11" file, and data from "Contacts","Call log","Event and tasks","Notes" and "SMS" </br>
-**Status:** Passed
+**Status:** Passed</br>
+
+---------------------------------------------------------------------------------------
+### Restore phone backup
+**Summary:** Checking if "Contacts","Call log","Events and tasks","Notes" and "SMS" restore is successful.
+**Preconditions:** Phone must be factory reset and all data wiped.</br>
+&nbsp;&nbsp;&nbsp; Phone must have MyPhoneEplorer app installed and connection between phone and pc must be active.</br>
+
 
 
 
