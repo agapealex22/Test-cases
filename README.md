@@ -92,7 +92,7 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 ### Restore phone backup
 **Summary:** Checking if "Contacts","Call log","Events and tasks","Notes" and "SMS" restore is successful.</br>
 **Preconditions:** Phone must be factory reset and all data wiped.</br>
-&nbsp;&nbsp; Phone must have MyPhoneEplorer app installed and connection between phone and pc must be active.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone must have MyPhoneEplorer app installed and connection between phone and pc must be active.</br>
 
 
 
