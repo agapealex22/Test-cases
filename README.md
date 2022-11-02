@@ -127,7 +127,7 @@ $~~~~~~~~~~~~~~~~~~~~~~~$ Phone must have MyPhoneEplorer app installed and conne
 2. "Backup Oneplus 2022-08-11.mpb" file is created
 3. Files for backup are being loaded
 4. A loading bar appears, displaying the "Current status" of the files being processed
-5. Files backup is successful
+5. Window closes and files backup is successful
 
 **Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "files" category</br>
 **Status:** Passed</br>
@@ -149,12 +149,57 @@ $~~~~~~~~~~~~~~~~~~~~~~~$ Data coresponding to files category has to be wiped fr
 1. Backup location folder on the pc opens
 2. A app window named "Restore backup" opens
 3. A loading bar appears displaying the "Current status" of the files being restored
-4. Files restore is successful
+4. Window closes and Files restore is successful
 
 **Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "files" category </br>
 **Status:** Passed</br> 
 
 --------------------------------------------------------------------------------------------
+
+### Creating applications backup
+**Summary:** Verifying that applications  backup works</br>
+**Preconditions:** Connection between phone and pc must be active</br>
+
+**Steps to reproduce:**
+1. Go to "Extras"=>"Create backup"
+2. Press "Save" button
+3. Press the "Applications" checkbox and select the save location
+4. Press "Create backup" button
+5. Press "Close" button
+
+**Expected results:**
+1. Backup location folder on the pc opens
+2. "Backup Oneplus 2022-08-11.mpb" file is created
+3. Applications for backup are being loaded
+4. A loading bar appears, displaying the "Current status"  of the files being processed
+5. Window closes and applications backup is successful
+
+**Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "applications" category </br>
+**Status:** Passed</br> 
+
+---------------------------------------------------------------------------------------------------
+
+### Restore applications backup
+**Summary:** Checking if applications restore works</br>
+**Preconditions:** Applications backup has to be previously created</br>
+$~~~~~~~~~~~~~~~~~~~~$ Connection between phone and pc must be established</br>
+
+**Steps to reproduce:**
+1. Go to "Extras"=>"Create backup"
+2. Press "Save" button
+3. Press the "Applications" checkbox and select the save location
+4. Press "Create backup" button
+5. Press "Close" button
+
+**Expected results:**
+1. Backup location folder on the pc opens
+2. "Backup Oneplus 2022-08-11.mpb" file is created
+3. Applications for backup are being loaded
+4. A loading bar appears, displaying the "Current status"  of the files being processed
+5. Window closes and applications backup is successful
+
+**Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "applications" category </br>
+**Status:** Passed</br> 
 
 
 
