@@ -111,6 +111,55 @@ $~~~~~~~~~~~~~~~~~~~~~~~$ Phone must have MyPhoneEplorer app installed and conne
 
 -----------------------------------------------------------------------------------------
 
+### Creating files backup
+**Summary:** Verifying that file backup is successful</br>
+**Preconditions:** Connection between phone and pc must be active</br>
+
+**Steps to reproduce:**
+1. Go to "Extras" => "Create backup"
+2. Press "Save" button
+3. Press the "Files" checkbox and select the save location
+4. Press "Create backup" button
+5. Press "Close" button
+
+**Expected results:**
+1. Backup saving location folder on the pc opens
+2. "Backup Oneplus 2022-08-11.mpb" file is created
+3. Files for backup are being loaded
+4. A loading bar appears, displaying the "Current status" of the files being processed
+5. Files backup is successful
+
+**Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "files" category</br>
+**Status:** Passed</br>
+
+---------------------------------------------------------------------------------------------
+### Restore files backup
+**Summary:** Check if restoring backuped files is successful</br>
+**Preconditions:** Files backup has to be previously made
+$~~~~~~~~~~~~~~~~~~~~~~~$Connection between devices must be active.
+$~~~~~~~~~~~~~~~~~~~~~~~$Data coresponding to files category has to be wiped from the phone
+
+**Steps to reproduce:**
+1. Go to "Extras" =>"Restore backup"
+2. Select the "Oneplus 2022-08-11.mpb" file coresponding to Files backup
+3. Select the "Files" checkbox and press "Restore backup" button
+4. Press "Close" button
+
+**Expected results:**
+1. Backup location folder on the pc opens
+2. A app window named "Restore backup" opens
+3. A loading bar appears displaying the "Current status" of the files being restored
+4. Files restore is successful
+
+**Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "files" category </br>
+**Status:** Passed</br> 
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
