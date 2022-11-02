@@ -201,6 +201,46 @@ $~~~~~~~~~~~~~~~~~~~~$ Connection between phone and pc must be established</br>
 **Test data:** "Backup Oneplus 2022-08-11.mpb" file, all data from "applications" category </br>
 **Status:** Passed</br> 
 
+--------------------------------------------------------------------------------------------------
+
+### Check "Memory status"
+**Summary:** Check if "Memory status" functionality is displaying the same values as the phone</br>
+**Preconditions:** Connection between phone and pc must be active</br>
+
+**Steps to reproduce:**
+1. Go to "View"=>"Other"=>"Memory status"
+2. Compare displayed values like "Used","Free"and "Total" from "Memory status" with values from the phone
+
+**Expected results:**
+1. Memory status is displayed
+2. All values coincide
+
+
+**Test data:** "Used", "Free" and "Total" values displayed by "Memory status" and by the phone </br>
+**Status:** Failed</br> 
+
+---------------------------------------------------------------------------------------------------------
+
+### Check "Monitor"
+**Summary:** Check if "Monitor" functionality is displaying accurate data</br>
+**Preconditions:** Connection between phone and pc must be active</br>
+
+**Steps to reproduce:**
+1. Go to "View"=>"Other"=>"Monitor"
+2. Compare battery percentage from "Monitor" functionality with battery percentage from the phone
+
+**Expected results:**
+1. "Monitor" functionality is displayed
+2. Both devices are showing the same battery percentage
+
+
+**Test data:** battery percentage displayed by "Monitor" functionality </br>
+**Status:** Failed</br> 
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
