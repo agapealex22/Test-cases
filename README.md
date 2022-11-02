@@ -136,8 +136,8 @@ $~~~~~~~~~~~~~~~~~~~~~~~$ Phone must have MyPhoneEplorer app installed and conne
 ### Restore files backup
 **Summary:** Check if restoring backuped files is successful</br>
 **Preconditions:** Files backup has to be previously made</br>
-$~~~~~~~~~~~~~~~~~~~~~~~$Connection between devices must be active.</br>
-$~~~~~~~~~~~~~~~~~~~~~~~$Data coresponding to files category has to be wiped from the phone</br>
+$~~~~~~~~~~~~~~~~~~~~~~~$ Connection between devices must be active.</br>
+$~~~~~~~~~~~~~~~~~~~~~~~$ Data coresponding to files category has to be wiped from the phone</br>
 
 **Steps to reproduce:**
 1. Go to "Extras" =>"Restore backup"
