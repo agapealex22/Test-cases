@@ -94,6 +94,20 @@ and "WiFi-PIN":"1234" must be set. Both devices must be connected to the same ne
 **Preconditions:** Phone must be factory reset and all data wiped.</br>
 $~~~~~~~~~~~~~~~~~~~~~~~$ Phone must have MyPhoneEplorer app installed and connection between devices must be active.</br>
 
+**Steps to reproduce:**
+1. Go to "Extras"=>"Restore backup"
+2. Select the created backup file named "Oneplus 2022-08-11.mpb"
+3. Click on "Restore backup" button
+4. Click on "Close" button when prompted 
+
+**Expected results:**
+1. A OS window with saved backup location on the pc opens
+2. A app window named "Restore backup" opens with all chekbox fields "Contacts","Call log","Events and tasks","Notes"and "SMS" selected
+3. A loading bar appears displaying the "Current status"  of the files being restored
+4. Restore is successfull
+
+**Test data:** "Oneplus 2022-08-11.mpb" file, and data from "Contacts","Call log","Event and tasks","Notes" and "SMS"</br>
+**Status:** Passed </br>
 
 
 
