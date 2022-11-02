@@ -221,7 +221,7 @@ $~~~~~~~~~~~~~~~~~~~~$ Connection between phone and pc must be established</br>
 
 ---------------------------------------------------------------------------------------------------------
 
-### Check "Monitor"
+### Check "Monitor" functionality
 **Summary:** Check if "Monitor" functionality is displaying accurate data</br>
 **Preconditions:** Connection between phone and pc must be active</br>
 
@@ -238,6 +238,44 @@ $~~~~~~~~~~~~~~~~~~~~$ Connection between phone and pc must be established</br>
 **Status:** Failed</br> 
 
 -----------------------------------------------------------------------------------------------------------
+
+### "Control phone" functionality
+**Summary:** Check if the phone can be controled trough "Control phone/Screen mirroring" functionality</br>
+**Preconditions:** Connection between phone and pc must be established via USB cable</br>
+
+**Steps to reproduce:**
+1. Go to "Extras" =>"Control phone/Screen mirroring" 
+2. Press "START NOW" button on the phone
+3. Give input to the phone using the mouse
+
+**Expected results:**
+1. A new window named "Load screenshot" is opened on the pc. On the phone side, a window with two buttons: "CANCEL" and "START NOW" opens, requesting access from the user.
+2. Phone screen is mirrored on the pc
+3. The phone responds accordingly
+
+**Status:** Passed</br> 
+
+-----------------------------------------------------------------------------------------------------------
+
+### "Screen mirroring" functionality
+**Summary:** Connection between phone and pc must be active</br>
+**Preconditions:** Connection between phone and pc must be established</br>
+
+**Steps to reproduce:**
+1. Go to "Extras" =>"Control phone/Screen mirroring" 
+2. Press "START NOW" button on the phone
+3. Give input to the phone using the mouse
+
+**Expected results:**
+1. A new window named "Load screenshot" is opened on the pc. On the phone side, a window with two buttons: "CANCEL" and "START NOW" opens, requesting access from the user.
+2. Phone screen is mirrored on the pc
+3. The phone responds accordingly
+
+**Status:** Passed</br> 
+
+--------------------------------------------------------------------------------------------------------------
+
+
 
 
 
